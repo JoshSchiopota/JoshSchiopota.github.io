@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+/* Body */
+body {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1020px;
+	min-width: 640px;
+
+}
+
+/* Font Styles */
+html{
+    background-color: rgba(88, 97, 216, 0.753);
+ 
+ }
+ body{
+    color:rgb(68, 68, 68);
+    background-color: rgb(221, 221, 221);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ 
+/* Navigation Styles */	
+ nav{
+    font-size: 1.5em;
+
+ }
+
+ nav > ul {
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+  }
+ 
+  nav > ul > li {
+    float: left;
+  }
+  
+  nav > ul > li > a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav > ul > li > a:hover {
+    background-color: #111;
+  }
