@@ -5,35 +5,33 @@ body {
 	margin: 0 auto;
   padding: 12;
 	width: 100%;
-	max-width: 1020px;
-	min-width: 640px;
+	max-width: 1100px;
+	min-width: 800px;
   color:rgb(68, 68, 68);
   background-color: rgb(221, 221, 221);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-article {
-  padding: 50px 20px 20px 20px;
+  
 }
 
 footer{
   padding: 50px 20px 20px 20px;
 }
 
-h1{
-  padding-bottom: 0;
-}
-h3{
-  padding-top: 10px;
-  padding-bottom: 10px;
+p{
+  padding-left: 20px;
 }
 
+h1,h2,h3{
+  padding-top: 50px;
+  padding-left: 10px;
+}
 
-/* Font Styles */
+/* background */
 html{
-    background-color: rgba(88, 97, 216, 0.753);
- 
+    background-image: url(background-wall.jpg);
+    background-size: cover;
  }
+
  
 /* Navigation Styles */	
  nav{
@@ -51,7 +49,7 @@ html{
   }
  
   nav > ul > li {
-    float: left;
+    float:left;
   }
   
   nav > ul > li > a {
@@ -65,3 +63,9 @@ html{
   nav > ul > li > a:hover {
     background-color: #111;
   }
+
+  /*projects.html*/
+
+  /*index.html*/
+
+
