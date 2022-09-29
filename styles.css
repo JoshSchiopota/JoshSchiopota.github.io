@@ -9,8 +9,28 @@ body {
 	min-width: 800px;
   color:rgb(68, 68, 68);
   background-color: rgb(221, 221, 221);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  
+  font-family: 'Noto Sans Mono', monospace;
+}
+
+section{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 400px;
+}
+
+.blue {
+  background:rgb(28, 1, 182);
+}
+.red {
+  background:rgb(87, 9, 9);
+}
+.purple {
+  background:rgb(34, 1, 112);
+}
+.brown {
+  background:rgb(87, 20, 0);
 }
 
 footer{
@@ -36,6 +56,7 @@ html{
 /* Navigation Styles */	
  nav{
     font-size: 1.5em;
+    
 
  }
 
@@ -66,6 +87,14 @@ html{
 
   /*projects.html*/
 
-  /*index.html*/
-
+  /*test.html*/
+.test{
+  color: white;
+}
+.curve{
+  position: absolute;
+  height: 225px;
+  width: 100%;
+  bottom: 0;
+}
 
