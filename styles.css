@@ -13,12 +13,14 @@ body {
   color:rgb(68, 68, 68);
   background-color: rgb(221, 221, 221);
   font-family: 'Noto Sans Mono', monospace;
+
 }
 header{
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0px 5%;
+  font-size: 1.5em;
 }
 
 footer{
@@ -33,17 +35,22 @@ h1,h2,h3{
   padding-left: 10px;
 }
 
+@page {
+  size: 8.5in 11in;
+  margin: 0.5in;
+}
+
 /* background */
 html{
-    background-image: url(background-wall.jpg);
-    background-size: cover;
- }
+  background-image: url(background-wall.jpg);
+  background-size: cover;
+}
 
  
 /* Navigation Styles */
 
 img {
-  width: 120px;
+  width: 180px;
   height: 120px;
   overflow: hidden;
 }
@@ -52,6 +59,7 @@ img {
 }
 .nav_links {
   list-style: none; 
+  display: block;
 }
 
 .nav_links li{
@@ -79,3 +87,33 @@ button:hover{
   font-style: i;
 }
   /*projects.html*/
+
+  /*mobile changes*/
+  @media only screen and (max-device-width: 600px) {
+    p {
+      font-size:1em  ;
+    }
+    .nav_links {
+      font-size: 1.5em;
+    }
+    .logo {
+      height: 500px;
+      width: 900px;
+
+      margin: 0px auto;
+      padding: 0px;
+    }
+    button{
+      display: none;
+    }
+    #index {
+      display: none;
+    }
+    body {
+      width: fit-content;
+    }
+    #logo_header, nav, .nav_links, header{
+      width: 100%;
+      display: block;
+    }
+  }
