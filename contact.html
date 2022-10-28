@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="styles.css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap" rel="stylesheet">
+        <meta name=”viewport” content=”width=device-width, initial-scale=1.0″>
+    </head>
+    
+    <body>
+        <header>
+            <div id="logo_header"><a href="index.html"> <img class="logo" src="Joshua Schiopota.png" alt="logo" ></a></div>
+            <nav> 
+                <ul class="nav_links">
+                    <li><a href="index.html" id="index">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="terms.html">Terms</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="contact.html"><button>Contact</button></a>
+        </header>
+        <form id="survey" action="http://www.example.com/redball/survey" method="post">
+            <fieldset id="custInfo">
+               <legend>Information</legend>
+               <div class="formRow">
+                  <label for="name">Name*</label>
+                  <input name="custName" id="name" type="text" placeholder="first and last name" required/>
+               </div>
+               <div class="formRow">
+                  <label for="city">City</label>
+                  <input name="custCity" id="city" type="text" value="Twinsburg"/>
+               </div>
+               <div class="formRow">
+                  <label for="state">State</label>
+                  <input name="custState" id="state" type="text" value="Ohio"/>
+               </div>
+               <div class="formRow">
+                  <label for="phone">Phone Number</label>
+                  <input name="custPhone" id="phone" type="tel" placeholder="(nnn) nn-nnnn" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$"/>
+               </div>
+               <div class="formRow">
+                  <label for="email">E-mail*</label>
+                  <input name="custEmail" id="mail" type="email" required/>
+               </div> 
+               <div class="formRow">
+                  <label for="info">Where did you hear about my website?<br />(select all that apply)</label>
+                  <select name="infoSrc" id="info" size="3" multiple>
+                     <option value="internet">Internet</option>
+                     <option value="word">Word of Mouth</option>
+                     <option value="other">Other</option>
+                  </select>
+               </div> 
+               <label for="commBox"> Any tips or advice for my website?</label>
+               <textarea name="custExp" id="commBox"></textarea>
+            </fieldset>
+
+   
+            <div id="buttons">
+               <input type="submit" value="Submit My Survey" />
+               <input type="reset" value="Cancel"/>
+            </div>
+         </form>
+        
+        <footer>
+            Residence: Twinsburg, OH 44087 &#8226; Contact Information:  &nbsp; <a href="tel:+12166304010">(216) 630-4010</a> &#8226; 
+            <a href="mailto:joshuaschio@gmail.com" >joshuaschio@gmail.com &#8226; 
+            <a href="https://www.linkedin.com/in/josh-schiopota-402064222/" target="_blank">Linked-in Profile 
+        </footer>
+    </body>
+</html>
