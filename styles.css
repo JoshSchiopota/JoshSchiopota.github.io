@@ -25,6 +25,7 @@ header{
 
 footer{
   padding: 50px 20px 20px 20px;
+  clear: both;
 }
 
 p{
@@ -39,7 +40,19 @@ h1,h2,h3{
   size: 8.5in 11in;
   margin: 0.5in;
 }
-
+body > aside {
+	width: 35%;
+	float: right;
+	margin-right: 3em;
+}
+body > aside h1 {
+  text-align: center;
+}
+body > article {
+	float: left;
+	width: 55%;
+	margin: 0px 0 10px 10px;
+}
 /* background */
 html{
   background-image: url(background-wall.jpg);
@@ -50,7 +63,7 @@ html{
 /* Navigation Styles */
 
 img {
-  width: 180px;
+  width: 200px;
   height: 120px;
   overflow: hidden;
 }
@@ -87,7 +100,30 @@ button:hover{
   font-style: i;
 }
   /*projects.html*/
-
+  table{
+    width: 80%;
+    margin: auto;
+    border: 4.5px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    background-color: rgb(201, 172, 131);
+    background-image: url(images.jfif);
+  }
+  th{
+    border: 3.5px solid rgb(0, 0, 0);
+    font-size: x-large;
+    padding: 3;
+    background-color: rgb(190, 178, 160);
+    background-image: url(images.jfif);
+    color: antiquewhite;
+  }
+  td{
+    border: 2px solid rgb(0, 0, 0);
+    background-image: url(whitebackground.jfif);
+  }
+  td:hover {
+    background-color: rgb(161, 135, 127);
+    background-image: url(images.jfif);
+  }
   /*mobile changes*/
   @media only screen and (max-device-width: 600px) {
     p {
