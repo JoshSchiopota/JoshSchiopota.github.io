@@ -30,10 +30,12 @@ footer{
 
 p{
   padding-left: 20px;
+  text-align: center;
 }
 
 h1,h2,h3{
   padding-left: 10px;
+  text-align: center;
 }
 
 @page {
@@ -61,8 +63,8 @@ body > article > h1 {
 }
 /* background */
 html{
-  background-image: url(background-wall.jpg);
-  background-size: cover;
+  background-image: url(greybackground.jpg);
+  background-size:cover;
 }
 
  
@@ -79,6 +81,7 @@ img {
 .nav_links {
   list-style: none; 
   display: block;
+  font-size: .85em;
 }
 
 .nav_links li{
@@ -238,4 +241,33 @@ input#zip:focus:invalid,
 input#phone:focus:invalid,
 input#mail:focus:invalid {
   background: rgb(255, 232, 233) url(rb_invalid.png) bottom right/contain no-repeat;
+}
+
+/*Section styles*/
+.section1 {
+  width: 50%;
+  float: right;
+  margin: 3em;
+  align-items: center;
+  border: black 1px solid;
+  text-align: center;
+}
+.section2 {
+  width: 50%;
+  float:left;
+  margin: 3em;
+  border: black 1px solid;
+  text-align: center;
+}
+.section2, .section1, img{
+  margin: auto;
+}
+iframe{
+  height: 200px;
+  width: 300px;
+}
+.img-section {
+  height: 200px;
+  width: 330px;
+  margin: 0px auto;
 }
