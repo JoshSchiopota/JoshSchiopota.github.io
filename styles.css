@@ -271,3 +271,8 @@ iframe{
   width: 330px;
   margin: 0px auto;
 }
+/* term styles */
+.terms{
+  text-align: left;
+  margin-left: 5em;
+}
